@@ -1,9 +1,232 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/136.0.0.0 Safari/537.36" version="26.2.14">
   <diagram name="Page-1" id="9ASTcxxGZP_0_zDkPB7L">
-    <mxGraphModel>
+    <mxGraphModel dx="4995" dy="3437" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="wpaXnWZzyjByHTewyBcY-1" value="Creation de tontines" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="10" y="69" width="230" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-2" value="Admin SFD" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="540" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-3" value="Tontinier&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="100" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-12" value="Supprimer des membres" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="170" width="250" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-13" value="Ajouter des membres&amp;nbsp;" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="120" width="260" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-14" value="Transférer les gains au membres" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="230" width="240" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-26" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="wpaXnWZzyjByHTewyBcY-3" target="wpaXnWZzyjByHTewyBcY-1">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-130" y="140" as="sourcePoint" />
+            <mxPoint x="-80" y="90" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-29" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="wpaXnWZzyjByHTewyBcY-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="130" as="sourcePoint" />
+            <mxPoint x="-80" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-30" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="wpaXnWZzyjByHTewyBcY-12">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="130" as="sourcePoint" />
+            <mxPoint x="-90" y="160" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-31" value="" style="endArrow=none;html=1;rounded=0;entryX=0.028;entryY=0.59;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wpaXnWZzyjByHTewyBcY-3" target="wpaXnWZzyjByHTewyBcY-13">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-110" y="190" as="sourcePoint" />
+            <mxPoint x="-60" y="140" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-34" value="Superfise les agents SFD" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="510" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-35" value="Examiner les demandes de prêts" style="ellipse;whiteSpace=wrap;html=1;direction=west;" vertex="1" parent="1">
+          <mxGeometry y="960" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-36" value="Suivre les paiements" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="300" width="240" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-37" value="Créer les tontines ouvertes" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="590" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-40" value="" style="endArrow=none;html=1;rounded=0;entryX=0.048;entryY=0.304;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" target="wpaXnWZzyjByHTewyBcY-14">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="130" as="sourcePoint" />
+            <mxPoint x="160" y="220" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-140" y="150" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-41" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" target="wpaXnWZzyjByHTewyBcY-36">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="130" as="sourcePoint" />
+            <mxPoint x="160" y="310" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-44" value="Approuver les retraits en agence" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-5" y="895" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-45" value="Accompagner les clients dans leurs démarches" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-20" y="830" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-46" value="Valider les demandes d&#39;adhésion" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="770" width="270" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-47" value="Valider les demandes de prêts" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1030" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-48" value="Déterminer les échéances de remboursement" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1109" width="260" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-50" value="" style="endArrow=none;html=1;rounded=0;entryX=0.061;entryY=0.208;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wpaXnWZzyjByHTewyBcY-45" target="wpaXnWZzyjByHTewyBcY-46">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="830" as="sourcePoint" />
+            <mxPoint x="270" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-150" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-51" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wpaXnWZzyjByHTewyBcY-44">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="930" as="sourcePoint" />
+            <mxPoint x="-70" y="905" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-52" value="" style="endArrow=none;html=1;rounded=0;entryX=1;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wpaXnWZzyjByHTewyBcY-35">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-150" y="930" as="sourcePoint" />
+            <mxPoint x="-50" y="860" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-53" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wpaXnWZzyjByHTewyBcY-37" target="wpaXnWZzyjByHTewyBcY-34">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="220" y="830" as="sourcePoint" />
+            <mxPoint x="270" y="780" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-150" y="570" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-54" value="Agents SFD" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="895" width="30" height="65" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-57" value="" style="endArrow=none;html=1;rounded=0;exitX=0.061;exitY=0.23;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.08;entryY=0.167;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wpaXnWZzyjByHTewyBcY-48" target="wpaXnWZzyjByHTewyBcY-47">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="140" y="1120" as="sourcePoint" />
+            <mxPoint x="190" y="1070" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-150" y="930" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-59" value="Recevoir le gain à la fin de la tontines" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1330" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-60" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="960" y="700" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-61" value="Clients SFD" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1754" width="30" height="56" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-62" value="Membre d&#39;une tf" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-190" y="1300" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-64" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="900" y="1300" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-72" value="" style="endArrow=none;html=1;rounded=0;entryX=0.209;entryY=0.008;entryDx=0;entryDy=0;entryPerimeter=0;exitX=0;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wpaXnWZzyjByHTewyBcY-80" target="wpaXnWZzyjByHTewyBcY-77">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-190" y="1610" as="sourcePoint" />
+            <mxPoint x="-220" y="1490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-170" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-75" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" target="wpaXnWZzyjByHTewyBcY-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-170" y="1330" as="sourcePoint" />
+            <mxPoint x="180" y="1260" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-77" value="Consulter l’historique des paiements" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1500" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-81" value="" style="endArrow=none;html=1;rounded=0;" edge="1" parent="1" source="wpaXnWZzyjByHTewyBcY-61" target="wpaXnWZzyjByHTewyBcY-62">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="150" y="1690" as="sourcePoint" />
+            <mxPoint x="200" y="1640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-88" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" target="wpaXnWZzyjByHTewyBcY-86">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="-160" y="1780" as="sourcePoint" />
+            <mxPoint x="340" y="1890" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-89" value="" style="endArrow=none;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="1" source="wpaXnWZzyjByHTewyBcY-58" target="wpaXnWZzyjByHTewyBcY-59">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="500" y="1540" as="sourcePoint" />
+            <mxPoint x="550" y="1490" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="910" y="1340" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-82" value="Demander l&#39;adhésion à une tontine" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="1780" width="260" height="57" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-87" value="" style="endArrow=none;html=1;rounded=0;entryX=0.068;entryY=0.669;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="wpaXnWZzyjByHTewyBcY-85" target="wpaXnWZzyjByHTewyBcY-82">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="290" y="1680" as="sourcePoint" />
+            <mxPoint x="340" y="1630" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-160" y="1780" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-85" value="Faire des demande de retraits" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1860" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-86" value="Soumettre des demandes de prêts" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1950" width="250" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-73" value="Rejoindre une tontine" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1240" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-74" value="" style="endArrow=none;html=1;rounded=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="wpaXnWZzyjByHTewyBcY-58" target="wpaXnWZzyjByHTewyBcY-73">
+          <mxGeometry width="50" height="50" relative="1" as="geometry">
+            <mxPoint x="120" y="1310" as="sourcePoint" />
+            <mxPoint x="-20" y="1300" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="-20" y="1390" />
+              <mxPoint x="-170" y="1330" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-58" value="Envoyer leurs cotisations par mobile money" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry y="1400" width="250" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-80" value="Contacter l’administrateur" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="5" y="1590" width="260" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-93" value="S&#39;authentifier" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="560" y="800" width="230" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="wpaXnWZzyjByHTewyBcY-96" value="" style="swimlane;startSize=0;" vertex="1" parent="1">
+          <mxGeometry x="-80" y="-340" width="890" height="2570" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
